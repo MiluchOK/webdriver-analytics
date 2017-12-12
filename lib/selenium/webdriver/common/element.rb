@@ -69,6 +69,7 @@ module Selenium
       #
 
       def click
+        puts "CLICK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
         bridge.click_element @id
       end
 
